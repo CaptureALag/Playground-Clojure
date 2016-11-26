@@ -1,8 +1,8 @@
- (ns input-utils)
+(ns input-utils)
 
- (require '[clojure.string :as str])
+(require '[clojure.string :as str])
 
- (defn read-ints []
-   (vec (map read-string (str/split (read-line) #"\s+")))
- )
+(defn read-ints []
+  (vec (map read-string (str/split (read-line) #"\s+")))
+  )
 
